@@ -5,15 +5,9 @@ body {
 button {
     border-radius: 4px;
 }
-/* Video Feed Styling */
-#overlay {
-/* Video Feed Styling:
- * Include the !important keyword to override default styles applied by JS.
- * webgazer.js sets defaults for: display, position, top, left, width, height
- */
-}
+
 #webgazerVideoContainer {
-    display: block !important; 
+    display: none !important; 
     position: fixed !important;
     top: 0px !important;
     left: 0px !important;
@@ -75,47 +69,54 @@ li {
     border-radius: 25px;
     background-color: red;
     opacity: 0.2;
-    border-color: black;
-    border-style: solid;
+    border:none;
     position:fixed;
-    z-index: 4;
 }
 
 /* Calibration point position */
 #Pt1{
-    top: 70px;
-    left:340px;
+    top: 4vh;
+    left:2.5vw;
+    z-index: 4;
 }
 #Pt2{
-    top: 70px;
+    top: 4vh;
     left:50vw;
     margin-left: 340;
+    z-index: 4;
 }
 #Pt3{
-    top: 70px;
-    right:2vw;
+    top: 4vh;
+    right:2.5vw;
+    z-index: 4;
 }
 #Pt4{
     top:50vh;
     left:2vw;
+    z-index: 4;
 }
 #Pt5{
     top: 50vh;
     left: 50vw;
+    z-index: 4;
 }
 #Pt6{
     top: 50vh;
-    right:2vw;
+    right:2.5vw;
+    z-index: 4;
 }
 #Pt7{
     bottom:2vw;
     left: 2vw;
+    z-index: 4;
 }
 #Pt8{
     bottom:2vw;
     left:50vw;
+    z-index: 4;
 }
 #Pt9{
     bottom:2vw;
-    right:2vw;
+    right:2.5vw;
+    z-index: 4;
 }
